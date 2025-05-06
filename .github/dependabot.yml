@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"  # Specifies the package manager for .NET projects
+    directory: "/src"            # Path to the directory containing your project files
+    schedule:
+      interval: "weekly"         # Frequency of update checks (options: daily, weekly, monthly)
